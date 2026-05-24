@@ -1,4 +1,5 @@
 text = input("请输入一段英文文字：")
+# 词频统计器 - 输入英文文字，统计每个单词出现次数
 words = text.lower().split()
 word_count = {}
 for word in words:
